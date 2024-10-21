@@ -20,17 +20,17 @@ This project requires Node.js and npm. The following dependencies need to be ins
 
 ## Installation
 1. Clone the repository:
-git clone https://github.com/yomogiu/task-tracker.git
-cd task-tracker
+- git clone https://github.com/yomogiu/task-tracker.git
+- cd task-tracker
 
 2. Install the dependencies:
-npm install
+- npm install
 
 ## Running the Application
 To run the development server:
-npm run dev
-Open [http://localhost:3000](http://localhost:3000) with your browser.
-Start ollama
+- npm run dev
+- Open [http://localhost:3000](http://localhost:3000) with your browser.
+- Start ollama
 
 ## Project Structure
 - `pages/`: Contains the Next.js pages
