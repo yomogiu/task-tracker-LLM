@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 This is a Next.js-based task management application that is able to perform: task creation, editing, deletion, calendar, and email text generation via a local LLM of your choice served by ollama.
 
 Here is a short video demonstrating what the app can do so far. The tasks right now are not saved upon refresh as the storage part has not been implemented yet.
-https://github.com/user-attachments/assets/aa3e3b8e-740c-42e0-97a2-b128ecc550e7
+<video src="https://github.com/user-attachments/assets/aa3e3b8e-740c-42e0-97a2-b128ecc550e7" width="1270" />
 
 ## Dependencies
 This project requires Node.js and npm. The following dependencies need to be installed:
