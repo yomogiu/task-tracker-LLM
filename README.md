@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-# LLM Task Tracker
+# Task Tracker with LLM
 This is a Next.js-based task management application that is able to perform: task creation, editing, deletion, calendar, and email text generation via a local LLM of your choice served by ollama.
 
 Here is a short video demonstrating what the app can do so far. The tasks right now are not saved upon refresh as the storage part has not been implemented yet.
