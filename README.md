@@ -2,11 +2,8 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-# Task Tracker with LLM
+# LLM Task Tracker
 This is a Next.js-based task management application that is able to perform: task creation, editing, deletion, calendar, and email text generation via a local LLM of your choice served by ollama.
-
-Here is a short video demonstrating what the app can do so far. The tasks right now are not saved upon refresh as the storage part has not been implemented yet.
-<video src="https://github.com/user-attachments/assets/cc4f1cae-157a-4fdb-a009-4523e47f60da" />
 
 ## Dependencies
 This project requires Node.js and npm. The following dependencies need to be installed:
@@ -20,17 +17,17 @@ This project requires Node.js and npm. The following dependencies need to be ins
 
 ## Installation
 1. Clone the repository:
-- git clone https://github.com/yomogiu/task-tracker.git
-- cd task-tracker
+git clone https://github.com/yomogiu/task-tracker.git
+cd task-tracker
 
 2. Install the dependencies:
-- npm install
+npm install
 
 ## Running the Application
 To run the development server:
-- npm run dev
-- Open [http://localhost:3000](http://localhost:3000) with your browser.
-- Start ollama
+npm run dev
+Open [http://localhost:3000](http://localhost:3000) with your browser.
+Start ollama
 
 ## Project Structure
 - `pages/`: Contains the Next.js pages
@@ -58,4 +55,3 @@ To run the development server:
 - Add storage so the tasks are saved (probably JSON or SQLite...)
 - Some kind of config/settings page where user can easily change things like system prompt or some other way to serve their LLM (e.g., OpenAI API)
 - Dark mode maybe
-- Stylings to make it look nicer

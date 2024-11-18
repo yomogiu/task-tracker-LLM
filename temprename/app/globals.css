@@ -5,6 +5,8 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary-color: #7C3AED;  /* default value */
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +26,16 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+
+.border-primary {
+  border-color: var(--primary-color);
 }

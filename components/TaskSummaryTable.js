@@ -9,7 +9,7 @@ const TaskSummaryTable = ({ tasks }) => {
 
     return (
       <div className="mt-4">
-        <h2 className="text-xl font-bold mb-2">Task Summary</h2>
+        <h2 className="text-xl font-bold mb-2 text-primary">Task Summary</h2>
         <table className="w-full border-collapse">
           <thead>
             <tr>

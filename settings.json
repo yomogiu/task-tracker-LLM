@@ -1,0 +1,6 @@
+{
+  "model": "llama3.1:8b-instruct-q5_K_S",
+  "primaryColor": "#31999b",
+  "fontFamily": "Arial",
+  "storageMethod": "JSON"
+}
